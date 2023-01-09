@@ -5,11 +5,11 @@
   line-height: 1.12;
   font-style: normal;
   color: #FFFFFF;
+  transition: opacity 0.2s;
 }
 
 .footer__link:hover {
   opacity: 0.8;
-  transition: opacity 0.2s;
 }
 
 @media screen and (max-width: 720px) {

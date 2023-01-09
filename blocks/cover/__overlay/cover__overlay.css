@@ -23,11 +23,11 @@
   top: 0;
   background-color: #2a2c2f;
   opacity: 0.3;
+  transition: opacity 0.2s;
 }
 
 .cover__overlay:hover::before {
   opacity: 0.8;
-  transition: opacity 0.2s;
 }
 
 @media screen and (max-width: 1024px) {
